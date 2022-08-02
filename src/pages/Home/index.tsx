@@ -3,6 +3,7 @@ import './index.scss';
 import { Hero } from "../../components/Hero";
 import { GeneralInfo } from '../../components/GeneralInfo';
 import { Vision } from '../../components/Vision';
+import { Community } from '../../components/Community';
 
 export const Home: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ export const Home: React.FC = () => {
       <Hero />
       <GeneralInfo />
       <Vision />
+      <Community />
     </Fragment>
   );
 };

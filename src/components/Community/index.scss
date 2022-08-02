@@ -2,7 +2,7 @@
 @import "src/styles/colors.scss";
 @import "src/styles/typography.scss";
 
-.vision {
+.community {
   @media #{$mq-xl} {
     max-width: 90%;
     margin: 0 auto;
@@ -21,31 +21,29 @@
     width: 100%
   }
   
-  &--properties {
+  &--double-col {
     @media #{$mq-md} {
       grid-template-columns: repeat(2, 1fr);
+      column-gap: .5rem;
     }
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  &--lightclients {
-    position: relative; 
-    top: 5vh;
-  }
-
-  .property {
+  .card {
+    position: relative;
+    padding: 3rem 2rem 6rem;
     display: flex;
+    border-radius: 24px;
     flex-direction: column;
     align-items: flex-start;
-    img {
-      width: 60%;
-    }
     h1 {
       @extend %body-lg;
       color: $gray-100;
       font-weight: 600;
       margin-block-end: 0;
+      min-height: 3rem;
+      max-width: 70%;
     }
     p {
       @extend %body;
@@ -53,21 +51,25 @@
       max-width: 28rem;
     }
   }
-  
-  .vision--lightclients {
-    h1 {
-      @extend %h1;
-      color: white;
-      font-weight: 600;
-      margin-block-end: 0;
-    }
-    p {
-      @extend %body;
-      color: $gray-300;
-      max-width: 40rem;
+
+  .typescript {
+    background: $secondary;
+    img {
+      position: absolute;
+      width: 11rem;
+      z-index: 0;
+      bottom: 5%; right: 3%;
     }
   }
+  
+  .social {
+    border: 4px solid $secondary;
+    align-items: center;
 
+    p {
+      text-align: center;
+    }
+  }
   .button-group {
     a {
       margin-right: 1rem;
