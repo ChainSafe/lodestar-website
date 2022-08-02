@@ -1,10 +1,15 @@
 import React, { Fragment } from 'react';
+import './index.scss';
+import { Hero } from "../../components/Hero";
+import { GeneralInfo } from '../../components/GeneralInfo';
+import { Vision } from '../../components/Vision';
+
 export const Home: React.FC = () => {
   return (
     <Fragment>
-      <div className='container'>
-        <h1>Setup</h1>
-      </div>
+      <Hero />
+      <GeneralInfo />
+      <Vision />
     </Fragment>
   );
 };

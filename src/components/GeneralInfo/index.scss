@@ -1,0 +1,129 @@
+@import "src/styles/breakpoints.scss";
+@import "src/styles/colors.scss";
+@import "src/styles/typography.scss";
+
+.general {
+  @media #{$mq-xl} {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @media #{$mq-md} {
+    margin: 0 $margin-sm;
+  }
+  margin: 0 8px;
+  flex-direction: column;
+  display: flex;
+  
+  &--about {
+    @media #{$mq-md} {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--setup {
+    position: relative;
+    top: 2vh;
+    border: 4px solid $secondary;
+    border-radius: 24px;
+    padding: 3rem 2rem;
+  }
+  
+  &--tools {
+    position: relative;
+    top: 2vh;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    @extend %h1;
+    color: $white;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-block-end: .5rem;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    h1, h2 {
+      @extend %body-lg;
+      color: rgb(149, 149, 149);
+      max-width: 30rem;
+    }
+    h1::selection {
+      background: $primary;
+      color: $white;
+    }
+    h2::selection {
+      background: $primary;
+      color: $white;
+    }
+    p::selection {
+      background: $primary;
+      color: $white;
+    }
+    .about-text {
+      @media #{$mq-md} {
+        margin-left: 1rem;
+      }
+    }
+  }
+  .button-group {
+    a {
+      margin-right: .5rem;
+    }
+  }
+}
+
+.general .cli {
+  border: 4px solid $secondary;
+  border-radius: 24px;
+  width: 40%;
+  height: 400px;
+}
+
+.general .tools-wrapper {
+  @media #{$mq-md} {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  
+  .tool {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    @media #{$mq-md} {
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
+
+    a {
+      @extend %body;
+      color: lightgrey;
+      text-decoration: none;
+      transition: all .2s ease-out;
+    }
+    a:hover {
+      filter: brightness(0.6);
+    }
+
+    img {
+      @media #{$mq-lg} {
+        width: 100%;
+      }
+      width: 80%;
+    }
+  }
+}
