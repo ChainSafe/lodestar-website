@@ -27,8 +27,8 @@ export const Vision: React.FC = () => {
           </h1>
           <p>Lodestar is actively contributing to light client protocol development for the Ethereum network. We believe in decentralizing the Ethereum network with trustless blockchain data on browsers and compact devices.</p>
           <div className='button-group'>
-            <a href="/" target="__blank" rel="noopener noreferrer"><Button primary>Try the demo</Button></a>
-            <a href="/" target="__blank" rel="noopener noreferrer"><Button dark>Contribute to R&D</Button></a>
+            <a href="https://lodestar-lightclient.chainsafe.io/" target="__blank" rel="noopener noreferrer"><Button primary>Try the demo</Button></a>
+            <a href="" target="__blank" rel="noopener noreferrer"><Button dark>Contribute to R&D</Button></a>
           </div>
         </div>
       </div>

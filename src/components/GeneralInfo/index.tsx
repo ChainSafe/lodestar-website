@@ -10,6 +10,7 @@ export const GeneralInfo: React.FC = () => {
         <div className='general--about'>
           <div className='text-wrapper'>
             <h1 className='about-text'>Lodestar is a consensus beacon node and validator client for the Ethereum blockchain network. We develop tools to enable Ethereum protocol development for the JavaScript ecosystem.</h1>
+            <a href="https://ethereum.org/en/run-a-node/" target="__blank" rel="noopener noreferrer"><Button dark>What is a node?</Button></a>
           </div>
           <div className='cli'></div>
         </div>
@@ -17,7 +18,7 @@ export const GeneralInfo: React.FC = () => {
           <h1 className='title'>Community-run technology that rewards participation.</h1>
           <div className='text-wrapper'>
             <h2>Running a validator rewards you for keeping the network secure.  Validating with minority clients like Lodestar, keep us safer.</h2>
-            <a href="/" target="__blank" rel="noopener noreferrer"><Button primary>Comprehensive Setup Guide</Button></a>
+            <a href="https://hackmd.io/@philknows/rk5cDvKmK" target="__blank" rel="noopener noreferrer"><Button primary>Comprehensive Setup Guide</Button></a>
           </div>
         </div>
         <div className='general--tools'>
