@@ -5,6 +5,7 @@ import { GeneralInfo } from '../../components/GeneralInfo';
 import { Vision } from '../../components/Vision';
 import { Community } from '../../components/Community';
 import { Research } from '../../components/Research';
+import { Support } from '../../components/Support';
 
 export const Home: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ export const Home: React.FC = () => {
       <Vision />
       <Community />
       <Research />
+      <Support />
     </Fragment>
   );
 };
