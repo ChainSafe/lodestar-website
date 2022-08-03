@@ -1,0 +1,74 @@
+@import "src/styles/breakpoints.scss";
+@import "src/styles/colors.scss";
+@import "src/styles/typography.scss";
+
+.footer { 
+  margin: 4rem 0 2rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .links {
+    @media #{$mq-xl} {
+      max-width: 1200px;
+      padding: 0 20%;
+      display: grid;
+    }
+    margin: 1rem 1rem 0;
+
+    &--column {
+      @media #{$mq-xl} {
+        flex-basis: 200px;
+      }
+      @media #{$mq-md} {
+        flex-direction: row;
+        margin: .5rem 0;
+        align-items: center;
+      }
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0;
+      h4 {
+        @extend %body;
+        margin-block-start: 0;
+        margin-block-end: .5rem;
+      }
+      .footer-link {
+        @extend %body;
+        font-size: 18px;
+        text-decoration: none;
+        margin-right: 1rem;
+        color: $gray-200;
+        font-weight: bolder;
+        &:hover {
+          color: $primary;
+          transition: 0.2s ease-in;
+        }
+      }
+      .icons {
+        @media #{$mq-md} {
+          text-align: end;
+          margin-left: 1rem;
+        }
+        a {
+          color: gray;
+          cursor: pointer;
+          margin-right: .75rem;
+          &:hover {
+            transition: 0.2s ease-in;
+            color: $primary;
+          }
+        }
+
+      }
+    }
+    &--column:nth-of-type(2) {
+      display: flex;
+      row-gap: .5rem;
+      justify-self: end;
+    }
+  }
+}
