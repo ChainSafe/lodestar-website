@@ -1,0 +1,38 @@
+@import "src/styles/breakpoints.scss";
+@import "src/styles/colors.scss";
+@import "src/styles/typography.scss";
+
+.nav {
+  padding: 3px;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  backdrop-filter: blur(7px) opacity(0.9);
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 30px;
+  z-index: 10;
+  display: flex;
+
+  &--links-wrapper {
+    order: 2;
+    .nav-link {
+      text-decoration: none;
+      color: $gray-100;
+      letter-spacing: .3px;
+      @extend %body;
+      font-size: 16px;
+      transition: all .2s;
+      padding: .4rem .8rem;
+      border-radius: 40px;
+
+      &:hover, &:active {
+        background: $primary;
+      }
+
+      &:first-of-type {
+        padding: .4rem 3rem .4rem .7rem;
+      }
+    }
+  }
+}
