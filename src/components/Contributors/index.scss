@@ -67,7 +67,6 @@
     }
 
   }
-
     .button-group {
     a {
       margin-right: .5rem;
@@ -79,5 +78,22 @@
       }
     }
   }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    align-content: center;
+    justify-content: center;
+    column-gap: 4px;
+  }
   
+  .contributor {
+    align-self: center;
+    justify-self: center;
+    padding-bottom: .5rem;
+    .avatar {
+      border-radius: 4px;
+      width: 4rem;
+      height: 4rem;
+    }
+  }
 }
