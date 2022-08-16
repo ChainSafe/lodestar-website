@@ -90,6 +90,12 @@
     align-self: center;
     justify-self: center;
     padding-bottom: .5rem;
+
+    a  {
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
     .avatar {
       border-radius: 4px;
       width: 4rem;

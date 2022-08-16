@@ -9,8 +9,8 @@ export const Community: React.FC = () => {
         <div className='community--double-col'>
           <div className='card typescript'>
             <h1>Written in the world’s most popular programming language.</h1>
-            <p>It’s all in Typescript. Lodestar is designed to be an accessible entry point into Ethereum development.</p>
-            <a href="/" target="__blank" rel="noopener noreferrer"><Button primary>Check out the codebase</Button></a>
+            <p>Lodestar is written in TypeScript, making it an accessible entry point into Ethereum development.</p>
+            <a href="https://github.com/ChainSafe/lodestar" target="__blank" rel="noopener noreferrer"><Button primary>Source Code</Button></a>
             <img src="/TS.png" alt="" />
           </div>
           <div className='card social'>
@@ -18,7 +18,7 @@ export const Community: React.FC = () => {
             <p>Meet fellow contributors and stay up to date with Ethereum news on our Discord.</p>
             <div className='button-group'>
               <a href="https://discord.com/invite/yjyvFRP" target="__blank" rel="noopener noreferrer"><Button primary>Join Discord</Button></a>
-              <a href="https://chainsafe.typeform.com/lodestar?typeform-source=github.com" target="__blank" rel="noopener noreferrer"><Button dark>Subscribe for updates</Button></a>
+              <a href="https://chainsafe.typeform.com/lodestar?typeform-source=github.com" target="__blank" rel="noopener noreferrer"><Button dark>Receive Security Updates</Button></a>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export const Team: React.FC = () => {
           <div className='team--text-wrapper'>
             <div className='column'>
               <h1>Built with love by protocol engineers.</h1>
-              <p>Lodestar is maintained by ChainSafe, the world’s leading blockchain research and development firm and avid supporter of open-source software.</p>
+              <p>Lodestar is maintained by ChainSafe, one of the world’s leading blockchain research and development firms.</p>
               <h2>Join the team to build a brazen future.</h2>
               <a href="https://chainsafe.io/careers" target="__blank" rel="noopener noreferrer"><Button primary>View open positions</Button></a>
             </div>

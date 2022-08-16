@@ -9,8 +9,8 @@ export const GeneralInfo: React.FC = () => {
       <div className='general'>
         <div className='general--about'>
           <div className='text-wrapper'>
-            <h1 className='about-text'>Lodestar is a consensus beacon node and validator client for the Ethereum blockchain network. We develop tools to enable Ethereum protocol development for the JavaScript ecosystem.</h1>
-            <a href="https://ethereum.org/en/run-a-node/" target="__blank" rel="noopener noreferrer"><Button dark>What is a node?</Button></a>
+            <h1 className='about-text'>Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. We also develop tools to enable Ethereum protocol development for the JavaScript ecosystem.</h1>
+            <a href="https://ethereum.org/en/run-a-node/" target="__blank" rel="noopener noreferrer"><Button dark>More about nodes</Button></a>
           </div>
           <div className='cli'></div>
         </div>

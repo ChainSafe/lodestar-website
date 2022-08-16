@@ -12,12 +12,12 @@ export const Vision: React.FC = () => {
           <div className='property'>
             <img src="/prop1.png" alt="" />
             <h1>Maximal security, minimal trust, endless opportunities.</h1>
-            <p>Using Lodestar to secure the Ethereum network brings us all closer to a world of greater privacy, sovereignty and sustainability.</p>
+            <p>Using Lodestar to secure the Ethereum network brings us closer to a world with greater privacy, sovereignty, and sustainability.</p>
           </div>
           <div className='property'>
             <img src="/prop2.png" alt="" />
             <h1>Lowering the barrier to greater sovereignty.</h1>
-            <p>Lodestar is driving the effort to improve Ethereum usability, expand access to a larger group of developers while maintaining a core value of decentralization. </p>
+            <p>We’re working to improve Ethereum usability, advocating for decentralization, and expanding access so more developers can get involved.</p>
           </div>
         </div>
         <div className='vision--lightclients'>
@@ -25,10 +25,10 @@ export const Vision: React.FC = () => {
           <h1>
             Light Client Ethereum: a node on every device.
           </h1>
-          <p>Lodestar is actively contributing to light client protocol development for the Ethereum network. We believe in decentralizing the Ethereum network with trustless blockchain data on browsers and compact devices.</p>
+          <p>Light clients enable more people to participate as first-class citizens, verifying data on the blockchain without relying on a centralized party. Lodestar is actively contributing to light client development for Ethereum.</p>
           <div className='button-group'>
             <a href="https://lodestar-lightclient.chainsafe.io/" target="__blank" rel="noopener noreferrer"><Button primary>Try the demo</Button></a>
-            <a href="" target="__blank" rel="noopener noreferrer"><Button dark>Contribute to R&D</Button></a>
+            {/* <a href="" target="__blank" rel="noopener noreferrer"><Button dark>Contribute to R&D</Button></a> */}
           </div>
         </div>
       </div>
