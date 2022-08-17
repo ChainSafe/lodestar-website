@@ -6,7 +6,7 @@ export const Vision: React.FC = () => {
   return (
     <Fragment>
       <div className='vision'>
-        <img src="/test1.png" alt=""/>
+        <img src="/prop3.png" alt=""/>
         <h1 className='title'>Lodestar is making it possible for <em>anyone</em> to participate.</h1>
         <div className='vision--properties'>
           <div className='property'>

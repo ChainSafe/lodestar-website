@@ -22,7 +22,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NeonDerthaw';
+  src: url("../assets/fonts/NeonDerthaw-Regular.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+}
+
 $font-family: Neue Montreal, Arial, sans-serif;
+
+$marquee: NeonDerthaw, Arial, sans-serif;
 
 @mixin font-style($font-size, $line-height, $font-weight: normal, $font-style: normal) {
   font-family: $font-family;
@@ -34,6 +43,12 @@ $font-family: Neue Montreal, Arial, sans-serif;
 
 %h1 {
   @include font-style(2.125rem, 2.5rem);
+}
+
+%marquee {
+  font-family: $marquee;
+  font-size: 150px;
+  line-height: 160px;
 }
 
 %body-lg {

@@ -8,7 +8,7 @@ export const Support: React.FC = () => {
           <div className='support--text-wrapper'>
             <div className='column'>
               <h1>Support Lodestar </h1>
-              <p>Lodestar is funded primarily by public goods funding with organizations such as the Ethereum Foundation and Gitcoin.</p>
+              <p>Support for Lodestar comes primarily from public goods funding via organizations like the Ethereum Foundation and Gitcoin.</p>
             </div>
             <div className='column'>
               <a href='https://gitcoin.co/grants/6034/lodestar-typescript-ethereum-consensus-client' target='__blank' rel='noopener noreferrer' className='large-link'>Gitcoin Grants</a>

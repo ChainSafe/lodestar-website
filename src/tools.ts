@@ -19,6 +19,6 @@ export const tools:ITool[] = [
   },
   {
     name: "Flare CLI",
-    url: "https://enr-viewer.com/",
+    url: "https://github.com/ChainSafe/lodestar/tree/unstable/packages/flare",
   },
 ]

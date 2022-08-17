@@ -14,8 +14,8 @@ export const Community: React.FC = () => {
             <img src="/TS.png" alt="" />
           </div>
           <div className='card social'>
-            <h1>A vibrant community awaits you.</h1>
-            <p>Meet fellow contributors and stay up to date with Ethereum news on our Discord.</p>
+            <h1>A vibrant community.</h1>
+            <p>Feel welcome, meet fellow contributors, and stay up to date on the latest news in our Discord.</p>
             <div className='button-group'>
               <a href="https://discord.com/invite/yjyvFRP" target="__blank" rel="noopener noreferrer"><Button primary>Join Discord</Button></a>
               <a href="https://chainsafe.typeform.com/lodestar?typeform-source=github.com" target="__blank" rel="noopener noreferrer"><Button dark>Receive Security Updates</Button></a>
@@ -26,13 +26,13 @@ export const Community: React.FC = () => {
           <img src="/chart.png" alt="" />
           <div className='text-wrapper'>
             <div className='column'>
-              <h1>Lodestar is an alternative client.</h1>
-              <p>Ethereum’s decentralized network has greater resilience supporting multi-client architecture. Running clients with less usage reduce your risk during correlated failures.</p>
+              <h1>Lodestar, an alternative client.</h1>
+              <p>Multi-client architecture is key to a secure and healthy version of Ethereum. Running less-used clients reduces risk during correlated failures.</p>
               <a href="https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html" target="__blank" rel="noopener noreferrer"><Button primary>Why run minority clients?</Button></a>
             </div>
             <div className='column'>
               <h1>Stake with Lodestar</h1>
-              <p>Earn rewards for securing a $100Bn network, by continuously running the Lodestar client.</p>
+              <p>Run Lodestar. Earn rewards. And do your part in securing a $100 billion network.</p>
               <a href="/" target="__blank" rel="noopener noreferrer"><Button primary>Guide to self-hosting</Button></a>
             </div>
           </div>

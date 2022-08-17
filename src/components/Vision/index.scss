@@ -66,6 +66,10 @@
       color: $gray-300;
       max-width: 40rem;
     }
+    .marquee {
+      @extend %marquee;
+      overflow-x: hidden;
+    }
   }
 
   .button-group {
