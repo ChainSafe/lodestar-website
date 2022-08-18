@@ -1,19 +1,19 @@
-@import "src/styles/colors";
-@import "src/styles/typography";
+@import 'src/styles/colors';
+@import 'src/styles/typography';
 
 .button {
   @extend %link;
   font-weight: 600;
   position: relative;
-  padding: .75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   border: none;
   border-radius: 1.5rem;
   cursor: pointer;
   transition-duration: 0.15s;
   overflow: hidden;
 
-
-  &:hover, &:active {
+  &:hover,
+  &:active {
     filter: brightness(0.9);
   }
 
@@ -22,7 +22,7 @@
     text-decoration: none;
     color: $gray-100;
   }
-  
+
   &__dark {
     background: transparent;
     box-sizing: border-box;

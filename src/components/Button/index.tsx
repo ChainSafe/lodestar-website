@@ -6,7 +6,12 @@ interface IButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   dark?: boolean;
 }
 
-export const Button: React.FC<IButtonProps> = ({ children, primary, dark, ...props }) => (
+export const Button: React.FC<IButtonProps> = ({
+  children,
+  primary,
+  dark,
+  ...props
+}) => (
   <button
     className={cls('button', {
       button__primary: primary,

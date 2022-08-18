@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Neue Montreal';
-  src: url("../assets/fonts/NeueMontreal-Regular.woff2") format("woff2"),
-    url("../assets/fonts/NeueMontreal-MediumItalic.ttf") format("truetype"),
-    url("../assets/fonts/NeueMontreal-Medium.woff2") format("woff2"),
-    url("../assets/fonts/NeueMontreal-Italic.ttf") format("truetype"),
+  src: url('../assets/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+    url('../assets/fonts/NeueMontreal-MediumItalic.ttf') format('truetype'),
+    url('../assets/fonts/NeueMontreal-Medium.woff2') format('woff2'),
+    url('../assets/fonts/NeueMontreal-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'NeueMontrealMedium';
-  src: url("../assets/fonts/NeueMontreal-Medium.woff2") format("woff2");
+  src: url('../assets/fonts/NeueMontreal-Medium.woff2') format('woff2');
   font-weight: 600;
   font-display: swap;
   font-style: normal;
@@ -16,17 +16,20 @@
 
 @font-face {
   font-family: 'NeueMontrealReg';
-  src: url("../assets/fonts/NeueMontreal-Regular.woff2") format("woff2");
+  src: url('../assets/fonts/NeueMontreal-Regular.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 
-
 $font-family: Neue Montreal, Arial, sans-serif;
 
-
-@mixin font-style($font-size, $line-height, $font-weight: normal, $font-style: normal) {
+@mixin font-style(
+  $font-size,
+  $line-height,
+  $font-weight: normal,
+  $font-style: normal
+) {
   font-family: $font-family;
   font-style: $font-style;
   font-weight: $font-weight;
@@ -53,5 +56,5 @@ $font-family: Neue Montreal, Arial, sans-serif;
   font-weight: 600;
 }
 %caption {
-  @include font-style(.875rem, 1.5rem);
+  @include font-style(0.875rem, 1.5rem);
 }

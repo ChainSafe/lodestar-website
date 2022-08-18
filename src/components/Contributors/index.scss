@@ -1,6 +1,6 @@
-@import "src/styles/breakpoints.scss";
-@import "src/styles/colors.scss";
-@import "src/styles/typography.scss";
+@import 'src/styles/breakpoints.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/typography.scss';
 
 .contributors {
   @media #{$mq-xl} {
@@ -18,10 +18,9 @@
   margin: 1rem $margin-sm;
   flex-direction: column;
   justify-content: center;
-  background: #DDDCED;
+  background: #dddced;
   border-radius: 24px;
-  
-  
+
   h1 {
     @media #{$mq-lg} {
       max-width: 70%;
@@ -30,8 +29,8 @@
     color: $black;
     font-weight: 600;
   }
-  
-  h2 {    
+
+  h2 {
     @extend %body-lg;
     color: $black;
     font-weight: 600;
@@ -65,11 +64,10 @@
       display: flex;
       flex-direction: column;
     }
-
   }
-    .button-group {
+  .button-group {
     a {
-      margin-right: .5rem;
+      margin-right: 0.5rem;
     }
     a:nth-of-type(2) {
       button {
@@ -85,13 +83,13 @@
     justify-content: center;
     column-gap: 4px;
   }
-  
+
   .contributor {
     align-self: center;
     justify-self: center;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 
-    a  {
+    a {
       &:hover {
         filter: brightness(0.8);
       }

@@ -1,6 +1,6 @@
-@import "src/styles/breakpoints.scss";
-@import "src/styles/colors.scss";
-@import "src/styles/typography.scss";
+@import 'src/styles/breakpoints.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/typography.scss';
 
 .stake {
   @media #{$mq-xl} {
@@ -18,8 +18,7 @@
   margin: 1rem $margin-sm;
   flex-direction: column;
   justify-content: center;
-  
-  
+
   h1 {
     @media #{$mq-lg} {
       max-width: 80%;
@@ -35,7 +34,7 @@
   &--text-wrapper {
     @media #{$mq-md} {
       grid-template-columns: repeat(2, 1fr);
-      column-gap: .5rem;
+      column-gap: 0.5rem;
     }
     display: grid;
     grid-template-columns: 1fr;
@@ -50,5 +49,4 @@
       }
     }
   }
-  
 }

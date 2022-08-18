@@ -2,7 +2,7 @@
 @import 'src/styles/colors.scss';
 @import 'src/styles/typography.scss';
 
-.team {
+.timeline {
   @media #{$mq-xl} {
     max-width: 90%;
     margin: 0 auto;
@@ -14,36 +14,32 @@
     margin: 0 $margin-sm;
     min-height: 40vh;
   }
+  background-color: $primary;
   display: flex;
   margin: 1rem $margin-sm;
   flex-direction: column;
   justify-content: center;
-  border: 4px solid $secondary;
   border-radius: 24px;
 
   h1 {
-    @media #{$mq-lg} {
-      max-width: 70%;
-    }
-    @extend %h1;
+    font-size: 60px;
+    line-height: 70px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    letter-spacing: 0.05rem;
     color: $gray-100;
-    font-weight: 600;
-  }
-
-  h2 {
-    @extend %body-lg;
-    color: $gray-200;
     font-weight: 600;
   }
   p {
     @extend %body;
-    color: $gray-300;
-    max-width: 28rem;
+    color: $gray-100;
+    max-width: 30rem;
+    margin-block-start: 0.5rem;
   }
   &--text-wrapper {
     @media #{$mq-md} {
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 2rem;
+      column-gap: 0.5rem;
     }
     display: grid;
     grid-template-columns: 1fr;
@@ -53,12 +49,41 @@
     .column {
       display: flex;
       flex-direction: column;
+
+      .accent-year {
+        font-size: 120px;
+        color: #1600A8;
+      }
+
+      p {
+        margin-top: 2rem;
+      }
     }
   }
-  .img {
-    width: 100%;
-    justify-self: end;
-    background: $secondary;
-    border-radius: 24px;
+
+  .tabs-container {
+    display: flex;
+  }
+
+  .unselected {
+    display: none;
+  }
+
+  .tab {
+    @media #{$mq-md} {
+      margin: .4rem 1rem .4rem 0;
+    }
+    color: $white;
+    cursor: pointer;
+    transition: 0.2;
+    margin: .5rem 0;
+    &:hover {
+      filter: brightness(.7);
+    }
+  }
+
+  .activeTab {
+    color: #1600A8;
+
   }
 }
