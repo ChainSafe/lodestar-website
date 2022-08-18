@@ -29,7 +29,7 @@ export const Team: React.FC = () => {
               <Button primary>View open positions</Button>
             </a>
           </div>
-          <div className="img"></div>
+          <img className="img" src="/team.png" alt="" />
         </div>
       </motion.div>
     </motion.div>
