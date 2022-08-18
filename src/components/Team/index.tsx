@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Button } from '../Button';
 import './index.scss';
 import { motion } from 'framer-motion';
@@ -6,10 +6,10 @@ import {slideUpVariant} from "../../styles/animations";
 
 export const Team: React.FC = () => {
   return (
-    <motion.div initial="offscreen"
+    <motion.div initial="offscreen" className='team'
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}>
-      <motion.div className='team'
+      <motion.div
       variants={slideUpVariant}>
           <div className='team--text-wrapper' >
             <div className='column'>
