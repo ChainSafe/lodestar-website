@@ -59,7 +59,7 @@ export const Community: React.FC = () => {
           className="community--double-col"
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true }}
         >
           <motion.div className="card typescript" variants={slideUpVariant}>
             <h1>Written in the world’s most popular programming language.</h1>

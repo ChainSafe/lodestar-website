@@ -10,7 +10,7 @@ export const Team: React.FC = () => {
       initial="offscreen"
       className="team"
       whileInView="onscreen"
-      viewport={{ once: true, amount: 0.8 }}
+      viewport={{ once: true }}
     >
       <motion.div variants={slideUpVariant}>
         <div className="team--text-wrapper">
