@@ -6,7 +6,7 @@ export const Vision: React.FC = () => {
   return (
     <Fragment>
       <div className='vision'>
-        <img src="/prop3.png" alt=""/>
+        <img src="/strip.png" alt=""/>
         <h1 className='title'>Lodestar is making it possible for <em>anyone</em> to participate.</h1>
         <div className='vision--properties'>
           <div className='property'>
@@ -15,13 +15,13 @@ export const Vision: React.FC = () => {
             <p>Using Lodestar to secure the Ethereum network brings us closer to a world with greater privacy, sovereignty, and sustainability.</p>
           </div>
           <div className='property'>
-            <img src="/prop2.png" alt="" />
+            <img src="/prop22.png" alt="" />
             <h1>Lowering the barrier to greater sovereignty.</h1>
             <p>We’re working to improve Ethereum usability, advocating for decentralization, and expanding access so more developers can get involved.</p>
           </div>
         </div>
         <div className='vision--lightclients'>
-          <img src="/prop3.png" alt="" />
+          <img src="/text.png" alt="" />
           <h1>
             Light Client Ethereum: a node on every device.
           </h1>

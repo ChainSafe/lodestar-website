@@ -20,7 +20,7 @@ export const Home: React.FC = () => {
       <Vision />
       <Community />
       <Research />
-      <Contributors />
+      {/* <Contributors /> */}
       <Support />
       <Team />
       <Footer/>

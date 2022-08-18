@@ -62,17 +62,17 @@ export const GeneralInfo: React.FC = () => {
           <div className='cli'></div>
         </div>
         <div className='general--setup'>
-          <h1 className='title'>Community-run technology that rewards participation.</h1>
-          <div className='text-wrapper'>
-            <h2>Running a validator rewards you for keeping the network secure. Validating with minority clients like Lodestar keeps us safer.</h2>
-            <a href="https://hackmd.io/@philknows/rk5cDvKmK" target="__blank" rel="noopener noreferrer"><Button primary>Comprehensive Setup Guide</Button></a>
+          <div className='general--setup--left'>
+            <h1 className='title'>Community-run technology that rewards participation.</h1>
+            <div className='text-wrapper'>
+              <h2>Running a validator rewards you for keeping the network secure. Validating with minority clients like Lodestar keeps us safer.</h2>
+              <a href="https://hackmd.io/@philknows/rk5cDvKmK" target="__blank" rel="noopener noreferrer"><Button primary>Comprehensive Setup Guide</Button></a>
+            </div>
           </div>
+          <img className="window" src='/window2.png' alt="" />
         </div>
         <div className='general--tools'>
           <h1 className='title'>Supporting the Ethereum developer ecosystem</h1>
-          <div className='text-wrapper'>
-            <h2>We build tools for the Ethereum community to simplify development.</h2>
-          </div>
           <div className='tools-wrapper'>
             {tools.map(({url, name}, i) => (
               <div className='tool' key={name + i}>
