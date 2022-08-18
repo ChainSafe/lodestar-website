@@ -12,7 +12,7 @@
   }
   @media #{$mq-md} {
     margin: 0 $margin-sm;
-    min-height: 40vh;
+    min-height: 30vh;
   }
   background-color: $primary;
   display: flex;
@@ -47,16 +47,22 @@
     padding: 3rem 2rem;
 
     .column {
+
       display: flex;
       flex-direction: column;
-
       .accent-year {
         font-size: 120px;
         color: #1600A8;
       }
-
+      
       p {
         margin-top: 2rem;
+      }
+      &:nth-of-type(2) {
+        @media #{$mq-md} {
+          display: block;
+        }
+        display: none;
       }
     }
   }
@@ -84,6 +90,7 @@
 
   .activeTab {
     color: #1600A8;
+    font-weight: 600;
 
   }
 }

@@ -26,7 +26,7 @@ export const Home: React.FC = () => {
       <Research />
       <Stake />
       <Timeline />
-      {/* <Contributors /> */}
+      <Contributors />
       <Support />
       <Team />
       <Footer />

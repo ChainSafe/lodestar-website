@@ -22,6 +22,7 @@ const isTimeToReFetch = (lastFetch: number): boolean => {
 const getContributors = async (): Promise<IContributor[]> => {
   try {
     const response = await githubAPI.get('/contributors');
+    console.log(response);
     const contributorList = response.data;
 
     const lastFetch = Date.now();
@@ -32,7 +33,6 @@ const getContributors = async (): Promise<IContributor[]> => {
     };
 
     localStorage.setItem('Lodestar_Contributors', JSON.stringify(storedData));
-
     return contributorList;
   } catch {
     return [];
