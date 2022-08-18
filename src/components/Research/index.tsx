@@ -7,7 +7,7 @@ export const Research: React.FC = () => {
       <div className='research'>
           <div className='research--text-wrapper'>
             <div className='column'>
-              <h1>Use your JavaScript skills for more than just staking. Many developers are improving Lodestar and our JS libraries in experimental ways.</h1>
+              <h1>Join the many developers who are improving Lodestar and our JavaScript libraries in experimental ways.</h1>
             </div>
             <div className='column'>
               <a href='https://snowbridge.snowfork.com/' target='__blank' rel='noopener noreferrer' className='large-link'>Trustless Bridge with Light Clients</a>
