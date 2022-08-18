@@ -32,3 +32,20 @@ export const slideUpVariant: Variants = {
     }
   }
 };
+
+export const staggerSlideVariant: Variants = {
+  offscreen: {
+    y: 80,
+    opacity: 0,
+  },
+  onscreen: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      staggerChildren: .05,
+      delayChildren: 0.2,
+      staggerDirection: -1,
+    }
+  }
+};
