@@ -10,6 +10,7 @@ import { Team } from '../../components/Team';
 import { Contributors } from '../../components/Contributors';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
+import { Stake } from '../../components/Stake';
 
 export const Home: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ export const Home: React.FC = () => {
       <Vision />
       <Community />
       <Research />
+      <Stake />
       {/* <Contributors /> */}
       <Support />
       <Team />

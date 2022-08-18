@@ -1,12 +1,17 @@
 import React, { Fragment } from 'react';
 import { Button } from '../Button';
 import './index.scss';
+import { motion } from 'framer-motion';
+import {slideUpVariant} from "../../styles/animations";
 
 export const Team: React.FC = () => {
   return (
-    <Fragment>
-      <div className='team'>
-          <div className='team--text-wrapper'>
+    <motion.div initial="offscreen"
+      whileInView="onscreen"
+      viewport={{ once: true, amount: 0.8 }}>
+      <motion.div className='team'
+      variants={slideUpVariant}>
+          <div className='team--text-wrapper' >
             <div className='column'>
               <h1>Built with love by protocol engineers.</h1>
               <p>Lodestar is maintained by ChainSafe, one of the world’s leading blockchain research and development firms.</p>
@@ -16,7 +21,7 @@ export const Team: React.FC = () => {
             <div className='img'>
             </div>
         </div>
-      </div>
-    </Fragment>
+      </motion.div>
+    </motion.div>
   );
 };

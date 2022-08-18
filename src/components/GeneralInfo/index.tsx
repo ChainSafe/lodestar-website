@@ -1,25 +1,10 @@
-import React, { Fragment, useEffect, useRef } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { Button } from '../Button';
 import './index.scss';
 import { tools } from '../../tools';
 import {motion, useAnimation} from 'framer-motion'
 import {useInView} from 'react-intersection-observer';
-
-
-const sentenceVariant = {
-  hidden: { opacity: 1, },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.25,
-    }
-  }
-};
-
-const letterVariant = {
-  hidden: { opacity: 0.2 },
-  visible: { opacity: 1, }
-};
+import { sentenceVariant, letterVariant, splitText } from '../../styles/animations';
 
 export const GeneralInfo: React.FC = () => {
 
@@ -35,16 +20,14 @@ export const GeneralInfo: React.FC = () => {
 
   const sentenceText = `Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. We also develop tools to enable Ethereum protocol development for the JavaScript ecosystem.`;
 
-  const splitSentence = sentenceText.split(" ");
-
+ const splitSentence = splitText(sentenceText);
 
   return (
     <Fragment>
-      <div className='general'>
+      <div ref={ref} className='general'>
         <div className='general--about'>
           <div className='text-wrapper' >
             <motion.h1
-            ref={ref}
              className='about-text'
              initial='hidden'
              viewport={{ once: true }}

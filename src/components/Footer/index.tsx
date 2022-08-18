@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
       <div className='links'>
         <div className='links--column'>
           <a href="https://chainsafe.github.io/lodestar/" target="_blank" rel="noopener noreferrer" className="footer-link">Docs</a>
-          <a href="https://chainsafe.typeform.com/lodestar?typeform-source=github.com" className="newsletter-link" target="_blank" rel="noopener noreferrer" ><Button dark>Subscribe to Updates</Button></a>
+          <a href="https://chainsafe.typeform.com/lodestar?typeform-source=github.com" className="newsletter-link" target="_blank" rel="noopener noreferrer" ><Button dark>Subscribe</Button></a>
           <div className='icons'>
             <a href="https://discord.gg/Qdf6GyNB5J" target="_blank" rel="noopener noreferrer"><DiscordLogo size={28} /></a>
             <a href="https://twitter.com/lodestar_eth" target="_blank" rel="noopener noreferrer"><TwitterLogo size={28} /></a>
