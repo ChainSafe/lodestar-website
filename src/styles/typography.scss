@@ -44,7 +44,7 @@ $font-family: Neue Montreal, Arial, sans-serif;
 
 %body-lg {
   @include font-style(1.5rem, 2rem);
-  font-family: 'NeueMontrealReg'
+  font-family: $font-family;
 }
 
 %body {

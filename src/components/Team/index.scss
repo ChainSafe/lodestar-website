@@ -15,7 +15,7 @@
     min-height: 40vh;
   }
   display: flex;
-  margin: 1rem $margin-sm;
+  margin: 1rem 0;
   flex-direction: column;
   justify-content: center;
   border: 4px solid $secondary;
@@ -27,28 +27,32 @@
     }
     @extend %h1;
     color: $gray-100;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   h2 {
     @extend %body-lg;
     color: $gray-200;
-    font-weight: 600;
+    margin-block-start: .5rem;
+    margin-block-end: .5rem;
   }
   p {
     @extend %body;
     color: $gray-300;
     max-width: 28rem;
+    margin-block-start: .5rem;
+    margin-block-end: .5rem;
   }
   &--text-wrapper {
     @media #{$mq-md} {
       grid-template-columns: repeat(2, 1fr);
       column-gap: 2rem;
+      padding: 3rem 2rem;
     }
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    padding: 3rem 2rem;
+    padding: 1.5rem 1rem;
 
     .column {
       display: flex;
@@ -57,7 +61,6 @@
   }
   .img {
     width: 100%;
-    justify-self: end;
     border-radius: 24px;
     max-width: 550px;
     object-fit: contain;

@@ -24,12 +24,11 @@
         flex-basis: 200px;
       }
       @media #{$mq-md} {
-        flex-direction: row;
         margin: 0.5rem 0;
-        align-items: center;
       }
       display: flex;
-      flex-direction: column;
+      align-items: center;
+      flex-direction: row;
       margin: 1rem 0;
       h4 {
         @extend %body;
@@ -49,10 +48,8 @@
         }
       }
       .icons {
-        @media #{$mq-md} {
-          text-align: end;
-          margin-left: 1rem;
-        }
+        text-align: end;
+        margin-left: 1rem;
         a {
           color: gray;
           cursor: pointer;
