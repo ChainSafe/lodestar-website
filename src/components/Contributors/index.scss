@@ -70,15 +70,15 @@
   }
   .grid {
     @media #{$mq-lg} {
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(12, 1fr);
     }
     @media #{$mq-md} {
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(10, 1fr);
     }
     display: grid;
     align-content: center;
     justify-content: center;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .contributor {
@@ -93,8 +93,8 @@
     }
     .avatar {
       border-radius: 4px;
-      width: 4rem;
-      height: 4rem;
+      width: 3rem;
+      height: 3rem;
     }
   }
 }

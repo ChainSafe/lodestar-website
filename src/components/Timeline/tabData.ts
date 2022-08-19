@@ -26,11 +26,6 @@ export const tabContent = [
     caption: "Proposed the first Lodestar mainnet block on Ethereum. Released first in-browser light client demonstration that tracks consensus using sync committees.",
   },
   {
-    id: "2",
-    year: "2021",
-    caption: "Proposed the first Lodestar mainnet block on Ethereum. Released first in-browser light client demonstration that tracks consensus using sync committees.",
-  },
-  {
     id: "1",
     year: "2019",
     caption: "ChainSafe receives a grant to develop tooling such as SSZ, BLS, and SHA256-AS for Ethereum Consensus (eth2) in the JS ecosystem.",

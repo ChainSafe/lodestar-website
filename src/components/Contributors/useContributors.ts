@@ -9,22 +9,21 @@ export interface IContributor {
 }
 
 const githubAPI = axios.create({
-  baseURL: `https://api.github.com/repos/chainsafe/lodestar/`,
+  baseURL: `https://api.github.com/repos/chainsafe/lodestar`,
   timeout: 1000,
 });
 
 const isTimeToReFetch = (lastFetch: number): boolean => {
   const timeNow = Date.now();
-  const minutesToAllowReFetch = 5;
+  const minutesToAllowReFetch = 1;
   return lastFetch + minutesToAllowReFetch * 60 * 1000 < timeNow;
 };
 
 const getContributors = async (): Promise<IContributor[]> => {
   try {
-    const response = await githubAPI.get('/contributors');
-    console.log(response);
+    const response = await githubAPI.get('/contributors?per_page=100');
     const contributorList = response.data;
-
+    console.log(contributorList);
     const lastFetch = Date.now();
 
     const storedData = {

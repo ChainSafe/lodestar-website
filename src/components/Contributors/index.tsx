@@ -41,7 +41,7 @@ export const Contributors: React.FC = () => {
             </div>
           </div>
           <div className="grid">
-            {contributors.map(
+          {contributors && contributors.map(
               ({ id, html_url, avatar_url }: IContributor) => (
                 <div className="contributor" key={id}>
                   <a href={html_url} target="_blank" rel="noopener noreferrer">

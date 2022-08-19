@@ -44,6 +44,7 @@
       @media #{$mq-md} {
         justify-self: end;
         width: 50%;
+        max-width: unset;
       }
       width: 100%;
       max-height: 370px;
