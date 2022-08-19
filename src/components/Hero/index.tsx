@@ -1,15 +1,47 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { Button } from '../Button';
 import './index.scss';
 import { StarScene } from '../Stars';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import {
+  sentenceVariant,
+  letterVariant,
+  splitText,
+  staggerSlideVariant,
+} from '../../styles/animations';
 
 export const Hero: React.FC = () => {
+  const controls = useAnimation();
+
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+  }, [controls, inView]);
+
+  const splitSentence = splitText(`Ethereum protocol meets JavaScript.`);
+
   return (
     <Fragment>
       <div className="hero">
         <StarScene />
-        <div className="text-wrapper">
-          <h1>Ethereum protocol meets Javascript.</h1>
+        <div className="text-wrapper" ref={ref}>
+          <motion.h1
+              className="about-text"
+              initial="hidden"
+              viewport={{ once: true }}
+              animate={controls}
+              variants={sentenceVariant}
+            >
+              {splitSentence.map((char, index) => (
+                <motion.span key={index} variants={letterVariant}>
+                  {char}{' '}
+                </motion.span>
+              ))}
+          </motion.h1>
           <p>
             Lodestar is an open-source Ethereum consensus client written in
             Typescript.
