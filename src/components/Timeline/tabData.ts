@@ -9,8 +9,12 @@ export const tabs = [
     id: "1",
   },
   {
-    name: "2021",
+    name: "2020",
     id: "2",
+  },
+  {
+    name: "2021",
+    id: "3",
   },
 ]
 
@@ -22,6 +26,11 @@ export const tabContent = [
   },
   {
     id: "2",
+    year: "2020",
+    caption: "Initial launch of Lodestar’s website presence.",
+  },
+  {
+    id: "3",
     year: "2021",
     caption: "Proposed the first Lodestar mainnet block on Ethereum. Released first in-browser light client demonstration that tracks consensus using sync committees.",
   },

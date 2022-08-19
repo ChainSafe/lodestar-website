@@ -81,14 +81,14 @@ export const GeneralInfo: React.FC = () => {
             whileInView="onscreen"
             viewport={{ once: true }}
           >
-            {tools.map(({ url, name }, i) => (
+            {tools.map(({ url, imgUrl, name }, i) => (
               <motion.div
                 variants={staggerSlideVariant}
                 className="tool"
                 key={name + i}
               >
                 <a href={url} target="__blank" rel="noopener noreferrer">
-                  <img src="/thumb.png" alt="" />
+                  <img src={imgUrl} alt="" />
                 </a>
                 <a href={url} target="__blank" rel="noopener noreferrer">
                   {name}
