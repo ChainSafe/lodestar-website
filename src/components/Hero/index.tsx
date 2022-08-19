@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react';
 import { Button } from '../Button';
 import './index.scss';
+import { StarScene } from '../Stars';
 
 export const Hero: React.FC = () => {
   return (
     <Fragment>
       <div className="hero">
-        <img src="/placeholder.png" alt="" />
+        <StarScene />
         <div className="text-wrapper">
           <h1>Ethereum protocol meets Javascript.</h1>
           <p>
