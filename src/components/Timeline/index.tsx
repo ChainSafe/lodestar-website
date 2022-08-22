@@ -49,7 +49,7 @@ export const Timeline: React.FC = () => {
                     {caption}
                   </p>
                 </div>
-                {imgUrl ? <img className={classNames(activeTab === parseInt(id) ? 'showImg' : 'unselected')}
+                {imgUrl ? <img className={classNames(activeTab === parseInt(id) ? 'show-img' : 'unselected')}
                 src={imgUrl} alt="" /> : ''}
               </div>
             ))}
