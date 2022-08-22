@@ -23,6 +23,7 @@ export const tabContent = [
     id: "0",
     year: "2018",
     caption: "ChainSafe receives first-ever grant from Vitalik Buterin to develop Lodestar.",
+    imgUrl: "/0.png"
   },
   {
     id: "2",
@@ -33,6 +34,7 @@ export const tabContent = [
     id: "3",
     year: "2021",
     caption: "Proposed the first Lodestar mainnet block on Ethereum. Released first in-browser light client demonstration that tracks consensus using sync committees.",
+    imgUrl: "/2021.png"
   },
   {
     id: "1",

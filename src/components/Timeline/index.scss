@@ -46,24 +46,44 @@
     grid-template-columns: 1fr;
     row-gap: 1rem;
     padding: 3rem 1rem 1.5rem 1rem;
-
-    .column {
+    .tab-content-wrapper {
+      @media #{$mq-md} {
+        flex-direction: row;
+        justify-content: space-between;
+      }
       display: flex;
       flex-direction: column;
-      .accent-year {
-        font-size: 120px;
-        color: #1600A8;
-        font-family: NeueMontrealMedium;
-      }
-      
-      p {
-        margin-top: 2rem;
-      }
-      &:nth-of-type(2) {
+      .showImg {
+        display: inline-flex;
+        justify-self: end;
         @media #{$mq-md} {
-          display: block;
+          margin-left: 5vw;
         }
-        display: none;
+      }
+      .column {
+        @media #{$mq-lg} {
+          min-width: 30%;
+        }
+        @media #{$mq-lg} {
+          min-width: 50%;
+        }
+        display: flex;
+        flex-direction: column;
+        .accent-year {
+          font-size: 120px;
+          color: #1600A8;
+          font-family: NeueMontrealMedium;
+        }
+        
+        p {
+          margin-top: 2rem;
+        }
+        &:nth-of-type(2) {
+          @media #{$mq-md} {
+            display: block;
+          }
+          display: none;
+        }
       }
     }
   }

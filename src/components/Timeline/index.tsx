@@ -40,12 +40,17 @@ export const Timeline: React.FC = () => {
       <div className="timeline">
         <div className="timeline--text-wrapper">
           <div className="column">
-            {tabContent.map(({year, caption, id}, index) => (
+            {tabContent.map(({year, caption, id, imgUrl}, index) => 
+            (
+              <div className="tab-content-wrapper">
               <div key={index} className={classNames(activeTab === parseInt(id) ? 'column' : 'unselected')}>
-                <h1 className='accent-year'>{year}</h1>
-                <p>
-                  {caption}
-                </p>
+                  <h1 className='accent-year'>{year}</h1>
+                  <p>
+                    {caption}
+                  </p>
+                </div>
+                {imgUrl ? <img className={classNames(activeTab === parseInt(id) ? 'showImg' : 'unselected')}
+                src={imgUrl} alt="" /> : ''}
               </div>
             ))}
             <div className="tabs-container">{tabs.map(({id, name}) => (
@@ -54,8 +59,6 @@ export const Timeline: React.FC = () => {
               />
             ))}
             </div>
-          </div>
-          <div className="column">
           </div>
         </div>
       </div>
