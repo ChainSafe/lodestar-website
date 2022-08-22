@@ -25,6 +25,8 @@
     @media #{$mq-md} {
       font-size: 56px;
       line-height: 64px;
+      max-width: 50rem;
+      align-self: center;
     }
     font-size: 40px;
     line-height: 40px;

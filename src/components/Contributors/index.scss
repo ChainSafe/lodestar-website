@@ -56,7 +56,7 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    padding: 3rem 1rem;
+    padding: 3rem 0;
 
     .column {
       display: flex;
@@ -65,7 +65,7 @@
   }
   .button-group {
     a {
-      margin-right: 0.5rem;
+      @media #{$mq-md} { margin-right: 0.5rem;} 
     }
   }
   .grid {
@@ -93,8 +93,12 @@
     }
     .avatar {
       border-radius: 4px;
-      width: 3rem;
-      height: 3rem;
+      @media #{$mq-md} {
+        width: 3rem;
+        height: 3rem;
+      }
+      width: 2rem;
+      height: 2rem;
     }
   }
 }

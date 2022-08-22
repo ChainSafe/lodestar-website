@@ -11,7 +11,7 @@
     transform: translateX(-50%);
   }
   @media #{$mq-md} {
-    margin: 0 $margin-sm;
+    margin: 0;
   }
   margin: 0 8px;
   flex-direction: column;
@@ -22,7 +22,7 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-end;
-      margin-top: 120px;
+      margin-top: 70px;
 
     }
     display: flex;
@@ -30,6 +30,7 @@
   }
 
   &--setup {
+    margin: 0 8px;
     @media #{$mq-md} {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -120,6 +121,7 @@
   }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: .25rem;
   width: 100%;
   margin-top: 1rem;
 
