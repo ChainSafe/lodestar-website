@@ -19,7 +19,7 @@ export const Vision: React.FC = () => {
         >
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop1.png" alt="" />
-            <h1>Maximal security, minimal trust, endless opportunities.</h1>
+            <h1>Maximum security, minimal trust, endless opportunities.</h1>
             <p>
               Using Lodestar to secure the Ethereum network brings us closer to
               a world with greater privacy, sovereignty, and sustainability.

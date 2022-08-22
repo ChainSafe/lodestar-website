@@ -21,7 +21,7 @@ export const Community: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is an alternative client.`);
+  const splitSentence = splitText(`Lodestar is an alternative consensus client.`);
 
   return (
     <Fragment>
@@ -42,7 +42,7 @@ export const Community: React.FC = () => {
             </motion.h1>
             <p>
               Ethereum's decentralized network has greater resilience supporting
-              multi-client architecture. Running minority clients reduces your
+              multi-client architecture. Running alternative clients reduces your
               risk during correlated failures.
             </p>
             <a

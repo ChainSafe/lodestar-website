@@ -10,8 +10,7 @@ export const Lightclients: React.FC = () => {
           <h1>Light Client Ethereum: a node on every device.</h1>
           <p>
             Light clients enable more people to participate as first-class
-            citizens, verifying data on the blockchain without relying on a
-            centralized party. Lodestar is{' '}
+            citizens, verifying data on the blockchain without relying on centralized service providers. Lodestar is{' '}
             <a
               href="https://blog.chainsafe.io/the-road-ahead-for-ethereum-light-clients-b6fdb7c3b603"
               target="__blank"

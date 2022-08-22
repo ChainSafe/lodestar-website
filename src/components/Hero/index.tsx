@@ -8,7 +8,6 @@ import {
   sentenceVariant,
   letterVariant,
   splitText,
-  staggerSlideVariant,
 } from '../../styles/animations';
 
 export const Hero: React.FC = () => {
@@ -22,7 +21,7 @@ export const Hero: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Ethereum protocol meets JavaScript.`);
+  const splitSentence = splitText(`Ethereum meets JavaScript.`);
 
   return (
     <Fragment>

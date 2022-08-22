@@ -22,7 +22,7 @@ export const GeneralInfo: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. We also develop tools to enable Ethereum protocol development for the JavaScript ecosystem.`);
+  const splitSentence = splitText(`Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. Lodestar's tools and libraries enable Ethereum protocol development for the JavaScript ecosystem.`);
 
   return (
     <Fragment>
@@ -60,7 +60,7 @@ export const GeneralInfo: React.FC = () => {
             <div className="text-wrapper">
               <h2>
                 Running a validator rewards you for keeping the network secure.
-                Validating with minority clients like Lodestar keeps us safer.
+                Validating with alternative clients like Lodestar keeps us safer.
               </h2>
               <a
                 href="https://hackmd.io/@philknows/rk5cDvKmK"
