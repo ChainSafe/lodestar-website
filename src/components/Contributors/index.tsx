@@ -29,7 +29,7 @@ export const Contributors: React.FC = () => {
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button primary>Helped Wanted</Button>
+                <Button primary>Help Wanted</Button>
               </a>
               <a
                 href="https://ethereum.org/en/bug-bounty/"

@@ -89,8 +89,15 @@
     }
   }
   .button-group {
+    @media #{$mq-md} {
+      flex-direction: row;
+    }
+    display: flex;
+    flex-direction: column;
     a {
-      margin-right: 0.5rem;
+      @media #{$mq-md} {
+        margin-right: 0.5rem;
+      }
     }
   }
 }

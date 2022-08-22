@@ -62,13 +62,22 @@ export const GeneralInfo: React.FC = () => {
                 Running a validator rewards you for keeping the network secure.
                 Validating with alternative clients like Lodestar keeps us safer.
               </h2>
-              <a
-                href="https://hackmd.io/@philknows/rk5cDvKmK"
-                target="__blank"
-                rel="noopener noreferrer"
-              >
-                <Button primary>Comprehensive Setup Guide</Button>
-              </a>
+              <div className='button-group'>
+                <a
+                  href="https://hackmd.io/@philknows/HkROkZW55"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button primary>Comprehensive Setup Guide</Button>
+                </a>
+                <a
+                  href="https://hackmd.io/@philknows/rJegZyH9q"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                <Button dark>Quick Start</Button>
+                </a>
+              </div>
             </div>
           </div>
           <img className="window" src="/window2.png" alt="" />

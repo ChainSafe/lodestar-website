@@ -20,7 +20,7 @@ export const Stake: React.FC = () => {
               Run Lodestar. Earn rewards. And do your part in securing a $100
               billion network.
             </p>
-            <a href="/" target="__blank" rel="noopener noreferrer">
+            <a href="https://hackmd.io/@philknows/HkROkZW55" target="__blank" rel="noopener noreferrer">
               <Button dark>Guide to self-hosting</Button>
             </a>
           </div>
