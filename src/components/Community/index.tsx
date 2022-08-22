@@ -62,7 +62,7 @@ export const Community: React.FC = () => {
           viewport={{ once: true }}
         >
           <motion.div className="card typescript" variants={slideUpVariant}>
-            <h1>Written in the world’s most popular programming language.</h1>
+            <h1>Written in the world’s most popular programming language</h1>
             <p>
               Lodestar is written in TypeScript, making it an accessible entry
               point into Ethereum development.
@@ -77,7 +77,7 @@ export const Community: React.FC = () => {
             <img src="/TS.png" alt="" />
           </motion.div>
           <motion.div className="card social" variants={slideUpVariant}>
-            <h1>A vibrant community.</h1>
+            <h1>A vibrant community</h1>
             <p>
               Feel welcome, meet fellow contributors, and stay up to date on the
               latest news in our Discord.
