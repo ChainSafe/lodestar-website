@@ -12,12 +12,12 @@ const linksData: INavLink[] = [
   {
     id: 0,
     name: 'Lodestar',
-    linkUrl: 'https://blog.chainsafe.io/lodestar-setup-guide-v2-a3d7492b5e5d',
+    linkUrl: '#about',
   },
   {
     id: 1,
     name: 'Usage',
-    linkUrl: 'https://blog.chainsafe.io/lodestar-setup-guide-v2-a3d7492b5e5d',
+    linkUrl: '#install',
   },
   {
     id: 2,
@@ -44,8 +44,6 @@ export const Header: React.FC = () => {
           <a
             href={linkUrl}
             className="nav-link"
-            target="__blank"
-            rel="noopener noreferrer"
             key={index}
           >
             {name}

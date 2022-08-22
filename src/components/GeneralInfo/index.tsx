@@ -26,7 +26,7 @@ export const GeneralInfo: React.FC = () => {
 
   return (
     <Fragment>
-      <div ref={ref} className="general">
+      <div ref={ref} className="general" id="about">
         <div className="general--about">
           <div className="text-wrapper">
             <motion.h1
@@ -52,7 +52,7 @@ export const GeneralInfo: React.FC = () => {
           </div>
           <div className="cli"></div>
         </div>
-        <div className="general--setup">
+        <div className="general--setup" id="install">
           <div className="general--setup--left">
             <h1 className="title">
               Community-run technology that rewards participation.
@@ -64,18 +64,18 @@ export const GeneralInfo: React.FC = () => {
               </h2>
               <div className='button-group'>
                 <a
-                  href="https://hackmd.io/@philknows/HkROkZW55"
-                  target="__blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button primary>Comprehensive Setup Guide</Button>
-                </a>
-                <a
                   href="https://hackmd.io/@philknows/rJegZyH9q"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
                 <Button dark>Quick Start</Button>
+                </a>
+                <a
+                  href="https://hackmd.io/@philknows/HkROkZW55"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button primary>Comprehensive Setup Guide</Button>
                 </a>
               </div>
             </div>
