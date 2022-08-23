@@ -27,7 +27,7 @@ export const Support: React.FC = () => {
               rel="noopener noreferrer"
               className="large-link"
             >
-              Ethereum Grants
+              Protocol Guild
             </a>
           </div>
         </div>
