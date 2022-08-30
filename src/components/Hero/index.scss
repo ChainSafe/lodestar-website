@@ -6,7 +6,6 @@
   @media #{$mq-xl} {
     max-width: 90%;
     margin: 0 auto;
-    position: relative;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -16,8 +15,14 @@
   margin: 10vh 8px;
   flex-direction: column;
   display: flex;
-
+  position: relative;
+  
   .text-wrapper {
+    @media #{$mq-lg} {
+      top: 20vh;
+    }
+    position: relative;
+    top: 10vh;
     display: flex;
     flex-direction: column;
     h1 {

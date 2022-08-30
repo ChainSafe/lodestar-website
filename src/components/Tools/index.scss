@@ -1,0 +1,108 @@
+@import 'src/styles/breakpoints.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/typography.scss';
+
+.tools {
+  @media #{$mq-xl} {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @media #{$mq-md} {
+    margin: 0 $margin-sm;
+  }
+  margin: 0 8px;
+  flex-direction: column;
+  display: flex;
+
+&--wrapper {
+    position: relative;
+    top: 2vh;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    @extend %h1;
+    color: $white;
+    font-weight: 500;
+    margin-block-end: 0.5rem;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    h1,
+    h1::selection {
+      background: $primary;
+      color: $white;
+    }
+    .about-text {
+      @media #{$mq-md} {
+        margin-left: 1rem;
+      }
+      color: $white;
+    }
+  }
+  .button-group {
+    @media #{$mq-md} {
+      flex-direction: row;
+      align-items: center;
+    }
+    display: flex;
+    flex-direction: column;
+    a {
+      @media #{$mq-md} {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.tools .cli {
+  @media #{$mq-md} {
+    border: 4px solid transparent;
+    border-radius: 24px;
+    width: 40%;
+    height: 400px;
+  }
+  display: none;
+}
+
+.tools .tools--animate {
+  @media #{$mq-md} {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: .25rem;
+  width: 100%;
+  margin-top: 1rem;
+
+  .tool {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    @media #{$mq-md} {
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
+
+    a {
+      @extend %body;
+      color: lightgrey;
+      text-decoration: none;
+      transition: all 0.2s ease-out;
+    }
+    a:hover {
+      filter: brightness(0.6);
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

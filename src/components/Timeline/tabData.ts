@@ -28,7 +28,8 @@ export const tabContent = [
   {
     id: "2",
     year: "2020",
-    caption: "Initial launch of Lodestar’s website presence.",
+    caption: "Lodestar participates in early beacon chain testnets such as Medalla with the staking community.",
+    imgUrl: "/medalla.png"
   },
   {
     id: "3",

@@ -13,6 +13,7 @@ import { Header } from '../../components/Header';
 import { Stake } from '../../components/Stake';
 import { Lightclients } from '../../components/Lightclients';
 import { Timeline } from '../../components/Timeline';
+import { Tools } from '../../components/Tools';
 
 export const Home: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ export const Home: React.FC = () => {
       <GeneralInfo />
       <Vision />
       <Lightclients />
+      <Tools />
       <Community />
       <Research />
       <Stake />

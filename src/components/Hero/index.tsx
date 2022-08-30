@@ -26,7 +26,6 @@ export const Hero: React.FC = () => {
   return (
     <Fragment>
       <div className="hero">
-        <StarScene />
         <div className="text-wrapper" ref={ref}>
           <motion.h1
               className="about-text"
@@ -62,6 +61,7 @@ export const Hero: React.FC = () => {
             </a>
           </div>
         </div>
+        <StarScene />
       </div>
     </Fragment>
   );
