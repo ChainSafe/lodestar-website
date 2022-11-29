@@ -7,7 +7,7 @@ export const Lightclients: React.FC = () => {
       <div className="lightclients">
         <img src="/text.png" alt="" />
         <div className="lightclients--intro">
-          <h1>Light Client Ethereum: a node on every device.</h1>
+          <h1>Light-Client Ethereum: a node on every device.</h1>
           <p>
             Light clients enable more people to participate as first-class
             citizens, verifying data on the blockchain without relying on centralized service providers. Lodestar is{' '}
