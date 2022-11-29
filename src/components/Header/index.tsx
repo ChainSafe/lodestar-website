@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react';
-import { Button } from '../Button';
+import React from 'react';
 import './index.scss';
 
 interface INavLink {
