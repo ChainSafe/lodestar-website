@@ -41,7 +41,7 @@ export const Research: React.FC = () => {
           </div>
           <div className="column">
             <a
-              href="https://snowbridge.snowfork.com/"
+              href="https://docs.snowbridge.network/"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link"
