@@ -40,7 +40,7 @@ export const Timeline: React.FC = () => {
       <div className="timeline">
         <div className="timeline--text-wrapper">
           <div className="column">
-            {tabContent.map(({year, caption, id, imgUrl}, index) => 
+            {tabContent.map(({year, caption, id, imgUrl}, index) =>
             (
               <div className="tab-content-wrapper">
               <div key={index} className={classNames(activeTab === parseInt(id) ? 'column' : 'unselected')}>
