@@ -9,7 +9,7 @@ export const Vision: React.FC = () => {
       <div className="vision">
         <img src="/strip.png" alt="" />
         <h1 className="title">
-          Lodestar is making it possible for <em>anyone</em> to participate
+          Lodestar is making it possible for <em>JavaScript</em> to participate
         </h1>
         <motion.div
           className="vision--properties"
@@ -19,19 +19,18 @@ export const Vision: React.FC = () => {
         >
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop1.png" alt="" />
-            <h1>Maximum security, minimal trust, endless opportunities.</h1>
+            <h1>For stakers, node operators and data consumers</h1>
             <p>
               Using Lodestar to secure the Ethereum network brings us closer to
-              a world with greater privacy, sovereignty, and sustainability
+              a world with greater resiliency, sovereignty, and sustainability
             </p>
           </motion.div>
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop22.png" alt="" />
-            <h1>Lowering the barrier to greater sovereignty</h1>
+            <h1>For researchers, builders and experimenters</h1>
             <p>
-              We’re working to improve Ethereum usability, advocating for
-              decentralization, and expanding access so more developers can get
-              involved.
+              We provide the tools to empower the largest group of developers 
+              to generate value on Ethereum and progress development of the protocol
             </p>
           </motion.div>
         </motion.div>

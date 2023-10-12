@@ -53,12 +53,12 @@ export const GeneralInfo: React.FC = () => {
         <div className="general--setup" id="install">
           <div className="general--setup--left">
             <h1 className="title">
-              Community-run technology that rewards participation.
+              Don't trust, verify: Run your own node.
             </h1>
             <div className="text-wrapper">
               <h2>
-                Running a validator rewards you for keeping the network secure.
-                Validating with alternative clients like Lodestar keeps us safer.
+                Running your own full Ethereum node ensures your own independence.
+                Validate with minority clients like Lodestar to make the Ethereum network safer.
               </h2>
               <div className='button-group'>
                 <a
@@ -66,14 +66,14 @@ export const GeneralInfo: React.FC = () => {
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                <Button dark>Quick Start</Button>
+                <Button dark>Quick Start Guide</Button>
                 </a>
                 <a
-                  href="https://hackmd.io/@philknows/HkROkZW55"
+                  href="https://github.com/ChainSafe/lodestar-quickstart"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                  <Button primary>Comprehensive Setup Guide</Button>
+                  <Button primary>Quick Start Repository</Button>
                 </a>
               </div>
             </div>

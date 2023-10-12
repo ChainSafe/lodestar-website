@@ -41,12 +41,12 @@ export const Research: React.FC = () => {
           </div>
           <div className="column">
             <a
-              href="https://docs.snowbridge.network/"
+              href="https://verkle.info/#815bdc38e2a94b3a9ae40b377050dbd9"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link"
             >
-              Trustless Bridge with Light Clients
+              Verkle Trees for Statelessness
             </a>
             <a
               href="https://github.com/AtHeartEngineering/js-libp2p-gossipsub-dandelion"

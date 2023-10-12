@@ -64,7 +64,7 @@ export const Community: React.FC = () => {
           <motion.div className="card typescript" variants={slideUpVariant}>
             <h1>Written in the world’s most popular programming language</h1>
             <p>
-              Lodestar is written in TypeScript, making it an accessible entry
+              Lodestar is written in TypeScript, a superset of JavaScript, making it an accessible entry
               point into Ethereum development.
             </p>
             <a
@@ -79,8 +79,8 @@ export const Community: React.FC = () => {
           <motion.div className="card social" variants={slideUpVariant}>
             <h1>A vibrant community</h1>
             <p>
-              Feel welcome, meet fellow contributors, and stay up to date on the
-              latest news in our Discord.
+              Feel welcome, meet fellow contributors, get support, and stay up to date on the
+              latest news in our Discord and on our Twitter.
             </p>
             <div className="button-group">
               <a
@@ -91,11 +91,11 @@ export const Community: React.FC = () => {
                 <Button dark>Join Discord</Button>
               </a>
               <a
-                href="https://chainsafe.typeform.com/lodestar?typeform-source=github.com"
+                href="https://twitter.com/lodestar_eth"
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button dark>Receive Security Updates</Button>
+                <Button dark>Follow us on Twitter</Button>
               </a>
             </div>
           </motion.div>
