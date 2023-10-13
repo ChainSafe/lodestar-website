@@ -33,7 +33,7 @@ export const Stake: React.FC = () => {
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button dark>Rocketpool</Button>
+                <Button dark>Rocket Pool</Button>
               </a>
               <a
                 href="https://eth-docker.net/Usage/QuickStart"
