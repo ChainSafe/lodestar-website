@@ -19,7 +19,7 @@ export const Vision: React.FC = () => {
         >
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop1.png" alt="" />
-            <h1>For stakers, node operators and data consumers</h1>
+            <h1>For stakers, node operators, and data consumers</h1>
             <p>
               Using Lodestar to secure the Ethereum network brings us closer to
               a world with greater resiliency, sovereignty, and sustainability

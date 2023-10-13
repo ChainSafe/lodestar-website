@@ -58,7 +58,7 @@ export const GeneralInfo: React.FC = () => {
             <div className="text-wrapper">
               <h2>
                 Running your own full Ethereum node ensures your own independence.
-                Validate with minority clients like Lodestar to make the Ethereum network safer.
+                Validate with a minority client like Lodestar to make the Ethereum network safer.
               </h2>
               <div className='button-group'>
                 <a
