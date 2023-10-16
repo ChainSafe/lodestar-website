@@ -9,18 +9,18 @@ export const Footer: React.FC = () => {
       <div className='links'>
         <div className='links--column'>
           <a
-            href='https://chainsafe.github.io/lodestar/'
+            href='https://chainsafe.github.io/lodestar/reference/cli/'
             target='_blank'
             rel='noopener noreferrer'
             className='footer-link'>
-            Docs
+            CLI Reference
           </a>
           <a
-            href='https://chainsafe.typeform.com/lodestar?typeform-source=github.com'
+            href='https://chainsafe.github.io/lodestar/'
             className='newsletter-link'
             target='_blank'
             rel='noopener noreferrer'>
-            <Button dark>Subscribe</Button>
+            <Button dark>Docs</Button>
           </a>
           <div className='icons'>
             <a

@@ -20,6 +20,10 @@ export const tabs = [
     name: "2022",
     id: "4",
   },
+  {
+    name: "2023",
+    id: "5",
+  },
 ]
 
 export const tabContent = [
@@ -51,5 +55,11 @@ export const tabContent = [
     year: "2022",
     caption: "Successfully participated in the Ethereum merge to Proof-of-Stake. Released Lodestar v1.0.",
     imgUrl: "/panda.png"
+  },
+  {
+    id: "5",
+    year: "2023",
+    caption: "Lodestar proposes the first block on the new 1.4M validator public testnet, Holesky",
+    imgUrl: "/holesky.png"
   },
 ];

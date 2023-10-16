@@ -7,9 +7,9 @@ export const Lightclients: React.FC = () => {
       <div className="lightclients">
         <img src="/text.png" alt="" />
         <div className="lightclients--intro">
-          <h1>Light-Client Ethereum: a node on every device.</h1>
+          <h1>Ethereum Light Clients: a node on every device.</h1>
           <p>
-            Light clients enable more people to participate as first-class
+            Light clients enable more people to use Ethereum as first-class
             citizens, verifying data on the blockchain without relying on centralized service providers. Lodestar is{' '}
             <a
               href="https://blog.chainsafe.io/the-road-ahead-for-ethereum-light-clients-b6fdb7c3b603"
@@ -18,7 +18,14 @@ export const Lightclients: React.FC = () => {
             >
               actively contributing
             </a>{' '}
-            to light client development for Ethereum.
+            to{' '} 
+            <a
+              href="https://lightclients.notion.site/Ethereum-Light-Clients-34bd5b58cf994abe8812463544d991d3"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              light client development
+            </a>{' '} for Ethereum.
           </p>
         </div>
         <div className="lightclients--details">
