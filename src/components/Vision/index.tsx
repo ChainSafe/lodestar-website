@@ -27,7 +27,7 @@ export const Vision: React.FC = () => {
           </motion.div>
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop22.png" alt="" />
-            <h1>For researchers, builders and experimenters</h1>
+            <h1>For researchers, builders, and experimenters</h1>
             <p>
               We provide the tools to empower the largest group of developers 
               to generate value on Ethereum and progress development of the protocol
