@@ -60,6 +60,6 @@ export const tabContent = [
     id: "5",
     year: "2023",
     caption: "Lodestar proposes the first block on the new 1.4M validator public testnet, Holesky",
-    imgUrl: "/holesky.png"
+    imgUrl: "/holesky-dark.png"
   },
 ];
