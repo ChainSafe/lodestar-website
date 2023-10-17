@@ -25,7 +25,7 @@ export const Contributors: React.FC = () => {
             </p>
             <div className="button-group">
               <a
-                href="https://github.com/ChainSafe/lodestar/labels/meta-good-first-issue"
+                href="https://github.com/ChainSafe/lodestar/labels/good%20first%20issue"
                 target="__blank"
                 rel="noopener noreferrer"
               >
