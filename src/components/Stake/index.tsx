@@ -40,7 +40,7 @@ export const Stake: React.FC = () => {
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button dark>eth-docker</Button>
+                <Button dark>Eth Docker</Button>
               </a>
             </div>
           </div>
