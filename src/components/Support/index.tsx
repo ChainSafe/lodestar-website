@@ -14,7 +14,7 @@ export const Support: React.FC = () => {
           </div>
           <div className="column">
             <a
-              href="https://gitcoin.co/grants/6034/lodestar-typescript-ethereum-consensus-client"
+              href="https://explorer.gitcoin.co/#/projects/0x62b3b673127e9511afdb47e7f0ef3f0bbc944ebf8492a88f5ed1ee9a4bfe14f2"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link"
