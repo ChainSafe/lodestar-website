@@ -9,7 +9,7 @@ export const Vision: React.FC = () => {
       <div className="vision">
         <img src="/strip.png" alt="" />
         <h1 className="title">
-          Lodestar is making it possible for <em>JavaScript</em> to participate
+          Lodestar is building robust Ethereum software with <em>Zig</em> supporting tooling in <em>JavaScript</em>
         </h1>
         <motion.div
           className="vision--properties"
@@ -19,18 +19,17 @@ export const Vision: React.FC = () => {
         >
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop1.png" alt="" />
-            <h1>For stakers, node operators, and data consumers</h1>
+            <h1>Building with Zig</h1>
             <p>
-              Using Lodestar to secure the Ethereum network brings us closer to
-              a world with greater resiliency, sovereignty, and sustainability
+              Zig is designed to be the simplest tool for writing optimal low-level software without surprises or hidden costs. Its combination of simplicity, control, and performance makes it a perfect fit for building robust Ethereum infrastructure.
+
             </p>
           </motion.div>
           <motion.div variants={slideUpVariant} className="property">
             <img src="/prop22.png" alt="" />
-            <h1>For researchers, builders, and experimenters</h1>
+            <h1>Supporting JavaScript</h1>
             <p>
-              We provide the tools to empower the largest group of developers 
-              to generate value on Ethereum and progress development of the protocol
+              Zig's future supports built-in browser and server support for WebAssembly through its compiler architecture. We'll continue supporting our TypeScript libraries and shipping WASM builds for critical modules. 
             </p>
           </motion.div>
         </motion.div>

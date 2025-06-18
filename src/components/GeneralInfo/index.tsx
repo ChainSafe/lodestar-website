@@ -20,7 +20,7 @@ export const GeneralInfo: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. Lodestar's tools and libraries enable Ethereum protocol development for the JavaScript ecosystem.`);
+  const splitSentence = splitText(`Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. Lodestar's tools and libraries enable Ethereum protocol development for Ziglang and JavaScript ecosystems.`);
 
   return (
     <Fragment>
@@ -53,27 +53,33 @@ export const GeneralInfo: React.FC = () => {
         <div className="general--setup" id="install">
           <div className="general--setup--left">
             <h1 className="title">
-              Don't trust, verify: Run your own node.
+              Run your own node, quickly.
             </h1>
             <div className="text-wrapper">
               <h2>
-                Running your own full Ethereum node ensures your own independence.
-                Validate with a minority client like Lodestar to make the Ethereum network safer.
+                Bootstrap your own full Ethereum node with Lodestar using node setup software. Using a performant minority client makes the Ethereum network safer. 
               </h2>
               <div className='button-group'>
                 <a
-                  href="https://hackmd.io/@philknows/rJegZyH9q"
+                  href="https://docs.dappnode.io/docs/user/staking/ethereum/solo/mainnet/"
                   target="__blank"
                   rel="noopener noreferrer"
-                >
-                <Button dark>Quick Start Guide</Button>
+                              >
+                  <Button primary>DappNode</Button>
                 </a>
                 <a
-                  href="https://github.com/ChainSafe/lodestar-quickstart"
+                  href="https://docs.rocketpool.net/guides/node/eth-clients.html#lodestar"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                  <Button primary>Quick Start Repository</Button>
+                <Button dark>Rocket Pool</Button>
+                </a>
+                <a
+                  href="https://eth-docker.net/Usage/QuickStart"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button primary>Eth Docker</Button>
                 </a>
               </div>
             </div>

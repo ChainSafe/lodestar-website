@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Ethereum meets JavaScript.`);
+  const splitSentence = splitText(`Ethereum meets Performance.`);
 
   return (
     <Fragment>
@@ -41,12 +41,11 @@ export const Hero: React.FC = () => {
               ))}
           </motion.h1>
           <p>
-            Lodestar is an open-source Ethereum consensus client written in
-            Typescript.
+            Lodestar is an open-source Ethereum consensus client written with Zig and JavaScript architecture.
           </p>
           <div className="button-group">
             <a
-              href="https://chainsafe.github.io/lodestar/"
+              href="https://chainsafe.github.io/lodestar/run/getting-started/installation"
               target="_blank"
               rel="noopener noreferrer"
             >

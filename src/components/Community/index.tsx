@@ -21,7 +21,7 @@ export const Community: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is an alternative consensus client.`);
+  const splitSentence = splitText(`Lodestar is an performant minority consensus client.`);
 
   return (
     <Fragment>
@@ -42,16 +42,25 @@ export const Community: React.FC = () => {
             </motion.h1>
             <p>
               Ethereum's decentralized network has greater resilience supporting
-              multi-client architecture. Running alternative clients reduces your
-              risk during correlated failures.
+              multi-client architecture. Running alternative clients like Lodestar reduces your
+              risk during correlated failures and provides the network greater robustness in recovering networks.
             </p>
-            <a
-              href="https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html"
-              target="__blank"
-              rel="noopener noreferrer"
-            >
-              <Button dark>Read on</Button>
-            </a>
+              <div className='button-group'>
+                <a
+                href="https://blog.chainsafe.io/lodestar-holesky-rescue-retrospective/"
+                target="__blank"
+                rel="noopener noreferrer"
+                >
+                <Button primary>Recovering Holesky</Button>
+                </a>
+                <a
+                  href="https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                <Button dark>Why Run A Minority Client?</Button>
+                </a>
+              </div>
             <img src="/stronger.png" alt="" />
           </div>
         </div>

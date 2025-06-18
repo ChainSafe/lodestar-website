@@ -106,7 +106,7 @@
       color: $gray-300;
       max-width: unset;
       margin-block-start: 0.5rem;
-      margin-block-end: 0.5rem;
+      margin-block-end: 2rem;
     }
     img {
       margin-top: 5vh;
@@ -114,7 +114,7 @@
   }
   .button-group {
     a {
-      @media #{$mq-md} { margin-right: 0 .5rem;} 
+      @media #{$mq-md} { margin-right: 0.5rem;} 
     }
   }
 }

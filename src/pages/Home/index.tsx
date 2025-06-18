@@ -11,7 +11,6 @@ import { Contributors } from '../../components/Contributors';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Stake } from '../../components/Stake';
-import { Lightclients } from '../../components/Lightclients';
 import { Timeline } from '../../components/Timeline';
 import { Tools } from '../../components/Tools';
 
@@ -22,7 +21,6 @@ export const Home: React.FC = () => {
       <Hero />
       <GeneralInfo />
       <Vision />
-      <Lightclients />
       <Tools />
       <Community />
       <Research />
