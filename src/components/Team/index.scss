@@ -59,6 +59,13 @@
       flex-direction: column;
     }
   }
+  .button-group {
+  a {
+    @media #{$mq-md} { margin-right: 0.5rem}
+    }
+    padding: 1em 0em;
+  }
+
   .img {
     width: 100%;
     border-radius: 24px;

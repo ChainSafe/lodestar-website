@@ -43,7 +43,7 @@ export const Community: React.FC = () => {
             <p>
               Ethereum's decentralized network has greater resilience supporting
               multi-client architecture. Running alternative clients like Lodestar reduces your
-              risk during correlated failures and provides the network greater robustness in recovering networks.
+              risk during correlated failures and provides the network with greater robustness in recovering networks.
             </p>
               <div className='button-group'>
                 <a
@@ -71,10 +71,9 @@ export const Community: React.FC = () => {
           viewport={{ once: true }}
         >
           <motion.div className="card typescript" variants={slideUpVariant}>
-            <h1>Written in the world’s most popular programming language</h1>
+            <h1>Written for simplicity, control, and performance</h1>
             <p>
-              Lodestar is written in TypeScript, a superset of JavaScript, making it an accessible entry
-              point into Ethereum development.
+              Lodestar is building Ethereum infrastructure on Zig, a promising new systems level programming language with C interoperability, faster compilations and safe memory management.
             </p>
             <a
               href="https://github.com/ChainSafe/lodestar"
@@ -83,7 +82,7 @@ export const Community: React.FC = () => {
             >
               <Button primary>Source Code</Button>
             </a>
-            <img src="/TS.png" alt="" />
+            <img src="/zig.png" alt="" />
           </motion.div>
           <motion.div className="card social" variants={slideUpVariant}>
             <h1>A vibrant community</h1>
@@ -93,18 +92,18 @@ export const Community: React.FC = () => {
             </p>
             <div className="button-group">
               <a
-                href="https://discord.com/invite/yjyvFRP"
+                href="https://discord.gg/642wB3XC3Q"
                 target="__blank"
                 rel="noopener noreferrer"
               >
                 <Button dark>Join Discord</Button>
               </a>
               <a
-                href="https://twitter.com/lodestar_eth"
+                href="https://x.com/lodestar_eth"
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button dark>Follow us on Twitter</Button>
+                <Button dark>Follow us on X/Twitter</Button>
               </a>
             </div>
           </motion.div>

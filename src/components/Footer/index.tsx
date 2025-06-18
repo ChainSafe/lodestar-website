@@ -24,13 +24,13 @@ export const Footer: React.FC = () => {
           </a>
           <div className='icons'>
             <a
-              href='https://discord.com/invite/xSAwrnCWcg'
+              href='https://discord.gg/642wB3XC3Q'
               target='_blank'
               rel='noopener noreferrer'>
               <DiscordLogo size={28} />
             </a>
             <a
-              href='https://twitter.com/lodestar_eth'
+              href='https://x.com/lodestar_eth'
               target='_blank'
               rel='noopener noreferrer'>
               <TwitterLogo size={28} />

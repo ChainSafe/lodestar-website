@@ -15,18 +15,24 @@ export const Stake: React.FC = () => {
       >
         <motion.div className="stake--text-wrapper" variants={slideUpVariant}>
           <div className="column">
-            <h1>Stake with Lodestar</h1>
+            <h1>Host your own private RPC endpoint, earn rewards for validating the network </h1>
             <p>
-              Run Lodestar. Earn rewards. And do your part in securing a $100
-              billion network. There are multiple ways to stake with Lodestar.
+              Bootstrap your own full Ethereum node with Lodestar using node setup software. Using a performant minority client makes the Ethereum network safer. 
             </p>
             <div className="button-group">
+              <a
+                href="https://chainsafe.github.io/lodestar/run/getting-started/quick-start-custom-guide"
+                target="__blank"
+                rel="noopener noreferrer"
+              >
+                <Button primary>Quick Start</Button>
+              </a>
               <a
                 href="https://docs.dappnode.io/docs/user/staking/ethereum/solo/mainnet/"
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button primary>DappNode</Button>
+                <Button dark>DappNode</Button>
               </a>
               <a
                 href="https://docs.rocketpool.net/guides/node/eth-clients.html#lodestar"

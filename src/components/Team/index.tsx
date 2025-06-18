@@ -20,14 +20,15 @@ export const Team: React.FC = () => {
               Lodestar is maintained by ChainSafe, one of the world’s leading
               blockchain research and development firms.
             </p>
-            <h2>Join the team to build a brazen future.</h2>
-            <a
-              href="https://chainsafe.io/careers"
-              target="__blank"
-              rel="noopener noreferrer"
-            >
-              <Button primary>View open positions</Button>
-            </a>
+            <div className='button-group'>
+              <a
+                href="https://chainsafe.io"
+                target="__blank"
+                rel="noopener noreferrer"
+              >
+                <Button primary>Join us at ChainSafe</Button>
+              </a>
+            </div>
           </div>
           <img className="img" src="/team.png" alt="" />
         </div>

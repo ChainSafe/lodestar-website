@@ -53,33 +53,54 @@ export const GeneralInfo: React.FC = () => {
         <div className="general--setup" id="install">
           <div className="general--setup--left">
             <h1 className="title">
-              Run your own node, quickly.
+              Advancing Ziglang and Ethereum ecosystems.
             </h1>
             <div className="text-wrapper">
               <h2>
-                Bootstrap your own full Ethereum node with Lodestar using node setup software. Using a performant minority client makes the Ethereum network safer. 
+                We're helping to improve the Zig ecosystem by contributing upstream, building Ethereum tooling and integrating with C libraries. These are some of our active project contributions:
               </h2>
               <div className='button-group'>
                 <a
-                  href="https://docs.dappnode.io/docs/user/staking/ethereum/solo/mainnet/"
+                  href="https://github.com/ChainSafe/blst-z"
                   target="__blank"
                   rel="noopener noreferrer"
                               >
-                  <Button primary>DappNode</Button>
+                  <Button primary>blst-z</Button>
                 </a>
                 <a
-                  href="https://docs.rocketpool.net/guides/node/eth-clients.html#lodestar"
+                  href="https://github.com/ChainSafe/bun-ffi-z"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                <Button dark>Rocket Pool</Button>
+                  <Button dark>bun-ffi-z</Button>
                 </a>
                 <a
-                  href="https://eth-docker.net/Usage/QuickStart"
+                  href="https://github.com/ChainSafe/hashtree-z"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                  <Button primary>Eth Docker</Button>
+                  <Button primary>hashtree-z</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/ssz-z"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                              >
+                  <Button dark>ssz-z</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/zbuild"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button primary>zbuild</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/zig-discv5"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                              >
+                  <Button dark>zig-discv5</Button>
                 </a>
               </div>
             </div>

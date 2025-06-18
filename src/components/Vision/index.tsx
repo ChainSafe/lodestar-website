@@ -9,7 +9,7 @@ export const Vision: React.FC = () => {
       <div className="vision">
         <img src="/strip.png" alt="" />
         <h1 className="title">
-          Lodestar is building robust Ethereum software with <em>Zig</em> supporting tooling in <em>JavaScript</em>
+          Lodestar is building robust Ethereum software with <em>Zig</em>, supporting tools in <em>JavaScript</em>
         </h1>
         <motion.div
           className="vision--properties"

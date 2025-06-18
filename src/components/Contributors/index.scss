@@ -65,7 +65,8 @@
   }
   .button-group {
     a {
-      @media #{$mq-md} { margin-right: 0.5rem;} 
+      @media #{$mq-md} { margin-right: 0.5rem} ;
+
     }
   }
   .grid {
