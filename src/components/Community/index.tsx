@@ -21,7 +21,7 @@ export const Community: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is an performant minority consensus client.`);
+  const splitSentence = splitText(`Lodestar is a performant minority consensus client.`);
 
   return (
     <Fragment>
@@ -43,7 +43,7 @@ export const Community: React.FC = () => {
             <p>
               Ethereum's decentralized network has greater resilience supporting
               multi-client architecture. Running alternative clients like Lodestar reduces your
-              risk during correlated failures and provides the network with greater robustness in recovering networks.
+              risk during correlated failures and provides the network with greater resilience in recovering networks.
             </p>
               <div className='button-group'>
                 <a

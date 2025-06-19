@@ -15,7 +15,7 @@ export const Stake: React.FC = () => {
       >
         <motion.div className="stake--text-wrapper" variants={slideUpVariant}>
           <div className="column">
-            <h1>Host your own private RPC endpoint, earn rewards for validating the network </h1>
+            <h1>Host your own private RPC endpoint, earn rewards for validating the network.</h1>
             <p>
               Bootstrap your own full Ethereum node with Lodestar using node setup software. Using a performant minority client makes the Ethereum network safer. 
             </p>
