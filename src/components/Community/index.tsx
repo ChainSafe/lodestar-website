@@ -70,7 +70,7 @@ export const Community: React.FC = () => {
           whileInView="onscreen"
           viewport={{ once: true }}
         >
-          <motion.div className="card typescript" variants={slideUpVariant}>
+          <motion.div className="card zig" variants={slideUpVariant}>
             <h1>Written for simplicity, control, and performance</h1>
             <p>
               Lodestar is building Ethereum infrastructure on Zig, a promising new systems level programming language with C interoperability, faster compilations and safe memory management.
