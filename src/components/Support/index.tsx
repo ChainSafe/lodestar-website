@@ -9,17 +9,17 @@ export const Support: React.FC = () => {
           <div className="column">
             <h1>Support Lodestar </h1>
             <p>
-              Support for Lodestar comes primarily from public goods funding via organizations like the Ethereum Foundation and Gitcoin. Our team supports and participates in the Protocol Guild, a collective of Ethereum contributors.
+              Support for Lodestar comes primarily from public goods funding via organizations like the Ethereum Foundation. Our team supports and participates in the Protocol Guild, a collective of Ethereum core protocol contributors.
             </p>
           </div>
           <div className="column">
             <a
-              href="https://explorer.gitcoin.co/#/projects/0x62b3b673127e9511afdb47e7f0ef3f0bbc944ebf8492a88f5ed1ee9a4bfe14f2"
+              href="https://etherscan.io/address/0xb4da52336092db22fe8e036866d59c6488604f89"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link"
             >
-              Gitcoin Grants
+              Donate to our Team Multisig
             </a>
             <a
               href="https://protocol-guild.readthedocs.io/en/latest/"

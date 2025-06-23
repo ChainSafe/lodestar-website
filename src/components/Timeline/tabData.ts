@@ -24,6 +24,14 @@ export const tabs = [
     name: "2023",
     id: "5",
   },
+  {
+    name: "2024",
+    id: "6",
+  },
+  {
+    name: "2025",
+    id: "7",
+  },
 ]
 
 export const tabContent = [
@@ -37,6 +45,7 @@ export const tabContent = [
     id: "1",
     year: "2019",
     caption: "ChainSafe receives a grant to develop tooling such as SSZ, BLS, and SHA256-AS for Ethereum Consensus (eth2) in the JS ecosystem.",
+    imgUrl: "/lodestar-2019.png"
   },
   {
     id: "2",
@@ -59,7 +68,19 @@ export const tabContent = [
   {
     id: "5",
     year: "2023",
-    caption: "Lodestar proposes the first block on the new 1.4M validator public testnet, Holesky",
+    caption: "Lodestar proposes the first block on the new 1.4M validator public testnet, Holesky.",
     imgUrl: "/holesky-dark.png"
+  },
+  {
+    id: "6",
+    year: "2024",
+    caption: "Shipped Dencun hard fork with over 2% of mainnet share.",
+    imgUrl: "/lodestar-diversity-2024.png"
+  },
+  {
+    id: "7",
+    year: "2025",
+    caption: "Lodestar is rewriting core modules in Zig and switching to Bun as the primary runtime for Lodestar v2.0.",
+    imgUrl: "/zig-bun.png"
   },
 ];

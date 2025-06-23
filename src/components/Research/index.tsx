@@ -19,7 +19,7 @@ export const Research: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Join the many developers who are improving Lodestar and our JavaScript libraries in experimental ways.`);
+  const splitSentence = splitText(`Join the many developers who are improving the Ethereum protocol through various methods of participation.`);
 
   return (
     <Fragment>
@@ -41,28 +41,28 @@ export const Research: React.FC = () => {
           </div>
           <div className="column">
             <a
-              href="https://verkle.info/#815bdc38e2a94b3a9ae40b377050dbd9"
+              href="https://epf.wiki"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link"
             >
-              Verkle Trees for Statelessness
+              Learn about the Ethereum Protocol Fellowship
             </a>
             <a
-              href="https://github.com/AtHeartEngineering/js-libp2p-gossipsub-dandelion"
+              href="https://ethresear.ch"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link"
             >
-              Dandelion RLP for Validator Privacy
+              Contribute research for Ethereum
             </a>
             <a
-              href="https://github.com/ChainSafe/lodestar/blob/unstable/README.md"
+              href="https://github.com/ChainSafe/lodestar/blob/unstable/CONTRIBUTING.md"
               target="__blank"
               rel="noopener noreferrer"
               className="large-link large-link--filled"
             >
-              Start Experimenting
+              Start Contributing to Lodestar
             </a>
           </div>
         </div>

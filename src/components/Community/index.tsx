@@ -21,7 +21,7 @@ export const Community: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is an alternative consensus client.`);
+  const splitSentence = splitText(`Lodestar is a performant minority consensus client.`);
 
   return (
     <Fragment>
@@ -42,16 +42,25 @@ export const Community: React.FC = () => {
             </motion.h1>
             <p>
               Ethereum's decentralized network has greater resilience supporting
-              multi-client architecture. Running alternative clients reduces your
-              risk during correlated failures.
+              multi-client architecture. Running alternative clients like Lodestar reduces your
+              risk during correlated failures and provides the network with greater resilience in recovering networks.
             </p>
-            <a
-              href="https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html"
-              target="__blank"
-              rel="noopener noreferrer"
-            >
-              <Button dark>Read on</Button>
-            </a>
+              <div className='button-group'>
+                <a
+                href="https://blog.chainsafe.io/lodestar-holesky-rescue-retrospective/"
+                target="__blank"
+                rel="noopener noreferrer"
+                >
+                <Button primary>Recovering Holesky</Button>
+                </a>
+                <a
+                  href="https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                <Button dark>Why Run A Minority Client?</Button>
+                </a>
+              </div>
             <img src="/stronger.png" alt="" />
           </div>
         </div>
@@ -61,11 +70,10 @@ export const Community: React.FC = () => {
           whileInView="onscreen"
           viewport={{ once: true }}
         >
-          <motion.div className="card typescript" variants={slideUpVariant}>
-            <h1>Written in the world’s most popular programming language</h1>
+          <motion.div className="card zig" variants={slideUpVariant}>
+            <h1>Written for simplicity, control, and performance</h1>
             <p>
-              Lodestar is written in TypeScript, a superset of JavaScript, making it an accessible entry
-              point into Ethereum development.
+              Lodestar is building Ethereum infrastructure on Zig, a promising new systems level programming language with C interoperability, faster compilations and safe memory management.
             </p>
             <a
               href="https://github.com/ChainSafe/lodestar"
@@ -74,7 +82,7 @@ export const Community: React.FC = () => {
             >
               <Button primary>Source Code</Button>
             </a>
-            <img src="/TS.png" alt="" />
+            <img src="/zig.png" alt="" />
           </motion.div>
           <motion.div className="card social" variants={slideUpVariant}>
             <h1>A vibrant community</h1>
@@ -84,18 +92,18 @@ export const Community: React.FC = () => {
             </p>
             <div className="button-group">
               <a
-                href="https://discord.com/invite/yjyvFRP"
+                href="https://discord.gg/642wB3XC3Q"
                 target="__blank"
                 rel="noopener noreferrer"
               >
                 <Button dark>Join Discord</Button>
               </a>
               <a
-                href="https://twitter.com/lodestar_eth"
+                href="https://x.com/lodestar_eth"
                 target="__blank"
                 rel="noopener noreferrer"
               >
-                <Button dark>Follow us on Twitter</Button>
+                <Button dark>Follow us on X/Twitter</Button>
               </a>
             </div>
           </motion.div>

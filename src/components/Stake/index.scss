@@ -44,6 +44,11 @@
     row-gap: 1rem;
     padding: 1.5rem 1rem;
 
+    .button-group {
+      a {
+        @media #{$mq-md} { margin-right: 0.5rem;} 
+      }
+    }
     .column {
       display: flex;
       flex-direction: column;

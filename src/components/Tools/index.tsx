@@ -23,7 +23,7 @@ export const Tools: React.FC = () => {
     <Fragment>
       <div ref={ref} className="tools">
         <motion.div className="tools--section">
-          <h1 className="title">Supporting the Ethereum developer ecosystem</h1>
+          <h1 className="title">Supporting the Ethereum Developer Ecosystem</h1>
           <motion.div
             className="tools--animate"
             initial="offscreen"

@@ -25,7 +25,7 @@ const Tab: React.FC<TabProps> = ({name, isActive, id, onClick}) => {
 
 export const Timeline: React.FC = () => {
 
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(7);
 
   //@ts-ignore
   const handleClick = e => {

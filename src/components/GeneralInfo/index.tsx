@@ -20,7 +20,7 @@ export const GeneralInfo: React.FC = () => {
     }
   }, [controls, inView]);
 
-  const splitSentence = splitText(`Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. Lodestar's tools and libraries enable Ethereum protocol development for the JavaScript ecosystem.`);
+  const splitSentence = splitText(`Lodestar is a consensus beacon node and validator client for the Ethereum blockchain. Lodestar's tools and libraries enable Ethereum protocol development for Ziglang and JavaScript ecosystems.`);
 
   return (
     <Fragment>
@@ -53,27 +53,54 @@ export const GeneralInfo: React.FC = () => {
         <div className="general--setup" id="install">
           <div className="general--setup--left">
             <h1 className="title">
-              Don't trust, verify: Run your own node.
+              Advancing Ziglang and Ethereum ecosystems.
             </h1>
             <div className="text-wrapper">
               <h2>
-                Running your own full Ethereum node ensures your own independence.
-                Validate with a minority client like Lodestar to make the Ethereum network safer.
+                We're helping to improve the Zig ecosystem by contributing upstream, building Ethereum tooling and integrating with C libraries. These are some of our active project contributions:
               </h2>
               <div className='button-group'>
                 <a
-                  href="https://hackmd.io/@philknows/rJegZyH9q"
+                  href="https://github.com/ChainSafe/blst-z"
                   target="__blank"
                   rel="noopener noreferrer"
-                >
-                <Button dark>Quick Start Guide</Button>
+                              >
+                  <Button primary>blst-z</Button>
                 </a>
                 <a
-                  href="https://github.com/ChainSafe/lodestar-quickstart"
+                  href="https://github.com/ChainSafe/bun-ffi-z"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                  <Button primary>Quick Start Repository</Button>
+                  <Button dark>bun-ffi-z</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/hashtree-z"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button primary>hashtree-z</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/ssz-z"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                              >
+                  <Button dark>ssz-z</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/zbuild"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button primary>zbuild</Button>
+                </a>
+                <a
+                  href="https://github.com/ChainSafe/zig-discv5"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                              >
+                  <Button dark>zig-discv5</Button>
                 </a>
               </div>
             </div>
